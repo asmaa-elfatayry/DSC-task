@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap');
+  *{  
+  overflow: auto;
+   margin: 0;
+  /* start text and img*/
+  }
+  .text {
+      margin-top: 100px ;
+      margin-bottom: 80px;
+     height: 505px;
+      background-color: rgb(246, 251, 250);
+      
+  }
+  
+  .text .first,
+  .img{
+    width: 50%;
+      float: left;
+      
+  }
+ 
+  
+.text .first h1 {
+    color: rgb(207, 8, 8);
+   padding: 100px 20px 30px 150px;
+}
+.text .first p{
+    color: rgb(55, 55, 145);
+    padding: 0 20px 20px 150px;
+    line-height: 1.7em;
+    font-family: Arimo;
+    text-align: justify;
+}
+.text .first i{
+  font-size:  70px;
+  color:rgba(207, 8, 8,.2) ;
+position: absolute;
+left: 180px;
+bottom: 200px;
+}
+
+.text .img img{
+  
+
+    width: 450px;
+    height: 500px;
+    margin-left: 40px;
+    position: relative;
+    overflow: hidden;
+}
+  /* end text and img*/
+    /* start sub-img*/
+.text .img .sub-img .pic1{
+  width:90px;
+  height: 110px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 70px;
+  right: 240px;
+margin-bottom: 10px;
+border: 2px solid white;
+
+}
+.text .img .sub-img .pic2{
+  width: 90px;
+  height: 110px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 70px;
+  right: 370px;
+margin-bottom: 10px;
+border: 2px solid white;
+}
+.text .img .sub-img .pic3{
+  width: 90px;
+  height: 110px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 70px;
+  right: 500px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+ /* end sub-img*/
+.options h1{
+  text-align: center;
+  margin-bottom:30px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.options .three-pictures {
+  
+  margin: 0 80px 0 240px;
+  padding: 40px;
+text-align: center;
+}
+
+.options .three-pictures .pho{
+  overflow: hidden;
+  background-color: rgb(246, 251, 250);
+float: left;
+width: 25%;
+border: 10px solid white;
+}
+.options .three-pictures .pho p{
+  padding: 10px 0 10px 10px;
+ text-align: left;
+ line-height: 1.6em;
+ font-size: 20px;
+ font-weight: bold;
+}
+.options .three-pictures .pho img{
+  width: 200px;
+  height: 160px;
+  margin: 2px 5px;
+  padding: 8px 12px 5px 12px;
+ 
+}
+.options .three-pictures .pho figure img{
+  width: 26px;
+  height: 26px;
+  border-radius: 60%;
+ position: relative;
+ right: 10px ;
+ display: inline;
+}
+.options .three-pictures .pho figure{
+  padding-bottom: 15px;
+}
+.options .three-pictures .pho figure span{
+  position: relative;
+  right: 20px;
+  bottom: 16px;
+  font-weight: 100;
+  color: rgba(29, 29, 29, 0.6);
+}
+.options .three-pictures .pho figure figcaption{
+  display: inline-block;
+  position: relative;
+bottom: 11px;
+right:  0px;
+  font-weight: 100;
+  color: rgba(29, 29, 29, 0.6);
+  font-size: 12px;
+  
+}
+.options .three-pictures .pho figure figcaption i{
+  padding:0 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
